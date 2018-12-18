@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>04-events</title>
+    <base href="/web-components-essentials-demos/dropdown/04-events/" />
+  </head>
+
+  <body>
+    <main><x-dropdown>Hello from Custom Element!</x-dropdown></main>
+
+    <script type="module">
+      import './x-dropdown.js';
+
+      const dropdown = document.querySelector('x-dropdown');
+
+      dropdown.addEventListener('show', (e) => console.log(e));
+    </script>
+  </body>
+</html>
