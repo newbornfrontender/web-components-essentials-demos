@@ -6,9 +6,9 @@ Web components demos
 
 <p align="center">The State of Web Components - Cory Rylan - Angular Lunch October 2018</p>
 
-<article align="center">
+<div align="center">
   <a href="https://www.youtube.com/watch?v=aci2TK6KJjc"><img src="https://img.youtube.com/vi/aci2TK6KJjc/0.jpg" alt="The State of Web Components"></a>
-</article>
+</div>
 
 <h2 align="center">Commands</h2>
 
