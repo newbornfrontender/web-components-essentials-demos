@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "format": "prettier --write **/*.{html,js,md}",
+    "format": "prettier --write *.{yml,json,md} public/**/*.{html,js}",
     "start": "serve public"
   },
   "devDependencies": {
