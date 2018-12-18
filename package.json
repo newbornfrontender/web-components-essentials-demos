@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "format": "prettier --write **/*.{html,js,md}",
-    "start": "serve"
+    "start": "serve public"
   },
   "devDependencies": {
     "prettier": "^1.15.3",
