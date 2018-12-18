@@ -30,6 +30,12 @@ $ yarn <command name>
       </td>
       <td>Formatting code with Prettier</td>
     </tr>
+    <tr>
+      <td>
+        <code>start</code>
+      </td>
+      <td>Run development server with Serve</td>
+    </tr>
   </tbody>
 </table>
 
