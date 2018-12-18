@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>05-properties</title>
+    <base href="/dropdown/05-properties/" />
+  </head>
+
+  <body>
+    <main><x-dropdown>Hello from Custom Element!</x-dropdown></main>
+
+    <script type="module">
+      import './x-dropdown.js';
+
+      const dropdown = document.querySelector('x-dropdown');
+
+      dropdown.addEventListener('show', (e) => console.log(e));
+
+      dropdown.title = 'Custom Title';
+
+      setTimeout(() => (dropdown.title = 'New Custom Title'), 3000);
+    </script>
+  </body>
+</html>
