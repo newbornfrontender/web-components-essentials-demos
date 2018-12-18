@@ -1,3 +1,8 @@
+language: node_js
+node_js:
+  - stable
+script:
+  - yarn format
 deploy:
   provider: pages
   skip_cleanup: true
