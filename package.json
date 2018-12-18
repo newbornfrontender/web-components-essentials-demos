@@ -10,6 +10,7 @@
     "format": "prettier --write **/*.{html,js,md}"
   },
   "devDependencies": {
-    "prettier": "^1.15.3"
+    "prettier": "^1.15.3",
+    "serve": "^10.1.1"
   }
 }
