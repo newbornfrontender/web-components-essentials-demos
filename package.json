@@ -1,0 +1,9 @@
+{
+  "name": "web-components-essentials-demos",
+  "version": "1.0.0",
+  "description": "Web components demos",
+  "repository": "https://github.com/newbornfrontender/web-components-essentials-demos.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
